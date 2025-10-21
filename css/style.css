@@ -1,0 +1,152 @@
+/* Importacion de la fuente "Press Start 2P" desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Estilos para todos los caracteres textuales */
+* {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+    line-height: 1.8;
+}
+
+p {
+    color: aliceblue;
+    ;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+h4 {
+    color: aliceblue;
+}
+
+li {
+    color: aliceblue;
+}
+
+a {
+    color: rgb(255, 255, 255)
+}
+
+#aside a {
+    color: rgb(255, 0, 0);
+}
+
+.x a {
+    color: rgb(255, 255, 255);
+}
+
+#imagen {
+    margin-left: 150px;
+}
+
+/* estilos para los enlases*/
+.x a{
+  width: 300px;
+  height: 200px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #003b00;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.x {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 800px;
+}
+
+
+
+#evolution {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: green;
+    margin-right: 450px;
+}
+
+
+#intro {
+    width: 800px;
+    height: 100px;
+}
+
+/* estilos para la pestaña "fixed" derecha */
+#aside {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: #003b00;
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+    height: 10000px;
+    width: 700px;
+}
+
+#aside h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#aside button {
+    margin-left: 250px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#doom {
+    width: 700px;
+    height: 530px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/* estilos para la seccion "fixed" izquierda */
+#antiaside {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #003b00;;
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+    height: 10000px;
+    width: 270px;
+}
+
+#antiaside h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* estilos para el pie de pagina */
+#footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+
+#principal {
+    background-color: black;
+}
+
+.contenido {
+    margin-left: 280px;
+}
