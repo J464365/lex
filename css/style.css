@@ -69,7 +69,6 @@ a {
 
 #evolution {
     font-size: 20px;
-    text-align: center;
     background-color: black;
     color: green;
     margin-right: 450px;
@@ -87,7 +86,7 @@ a {
     right: 0px;
     top: 0px;
     background-color: #003b00;
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     color: aliceblue;
     height: 10000px;
     width: 700px;
@@ -116,17 +115,6 @@ a {
     border: 2px solid rgb(255, 255, 255);
 }
 
-/* estilos para la seccion "fixed" izquierda */
-#antiaside {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    background-color: #003b00;;
-    border: 2px solid rgb(255, 255, 255);
-    color: aliceblue;
-    height: 10000px;
-    width: 270px;
-}
 
 #antiaside h2 {
     text-align: center;
@@ -139,14 +127,10 @@ a {
     background-color: black;
     color: aliceblue;
     margin-bottom: 20px;
-    width: 1000px;
+    width: 1400px;
 }
 
 
 #principal {
     background-color: black;
-}
-
-.contenido {
-    margin-left: 280px;
 }
